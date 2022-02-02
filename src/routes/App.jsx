@@ -9,6 +9,7 @@ import Mensajes from '../pages/Mensajes';
 import Noticias from '../pages/Noticias';
 import Cobros from '../pages/Cobros';
 import AgregarOS from '../components/ObraSocial/AgregarOS';
+import AgregarNoticia from '../pages/AgregarNoticia';
 
 
 const App = () => {
@@ -27,7 +28,8 @@ const App = () => {
 
                     <Route path='/turnos' element={<Turnos/>}/>      
                     <Route path='/mensajes' element={<Mensajes/>}/>
-                    <Route path='/noticias' element={<Noticias/>}/>  
+                    <Route path='/noticias' element={<Noticias/>}/>
+                    <Route path='/noticias/agregarnoticia' element={<AgregarNoticia/>}/>   
                     <Route path='/cobros' element={<Cobros/>}/>     
                 </Routes>
             </Layout>
